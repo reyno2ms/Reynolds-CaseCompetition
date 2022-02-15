@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+.logo {
+    padding-bottom:20px;
+    }
+    nav {
+    display:flex;
+    justify-content:space-around;
+    }
+    .container {
+    background:#eeeeee;
+    }
+   
+		a:visited {
+		color:#ffffff;
+		text-decoration: none;
+		}
+		a:hover {
+		color:#fcd930;
+		text-decoration: none;
+		}
+		.a {
+		padding-bottom:50px;	
+		}
+		a:active {
+		color:#ffffff;
+		text-decoration: none;
+		}
+		section {
+		margin-top:10px; 
+		}
+		header {
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:80px; /* Adjust as needed. */
+		z-index:99; /* Keeps menu on top. */
+		transition: all 300ms ease-in-out; /* Animation */
+		
+		padding:30px;
+		}
+		.scroll-down header {
+		
+		transform:translate3d(0, -200%, 0); /* Moves menu off the top when scrolling down. */
+		}
